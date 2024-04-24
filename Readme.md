@@ -10,3 +10,9 @@ CKANEXT__MOEIEMAILER__CLIENT_SECRET=ff-ffff-fff
 CKANEXT__MOEIEMAILER__TENANT_ID=ff-fff-ff
 CKANEXT__MOEIEMAILER__MAIL_FROM=ff-fff-fff
 ```
+
+To ensure the mailer is overide, make moeimailer the first plugin
+
+```
+ckan.plugin = moeiemailer
+```
